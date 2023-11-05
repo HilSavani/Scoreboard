@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="team">
+            <div class="team-name">
+                <h2 class="team-heading">Team A</h2>
+                <span id="teamAscore" class="teamscore">0</span>
+                <span id="teambtn">
+                    <button onclick="incrementScore('teamA')" class="btn">+</button>
+                    <button onclick="decrementScore('teamA')" class="btn">-</button>
+                </span>
+            </div>
+        </div>
+        <button onclick="resetScore()" class="reset-btn">Reset</button>
+        <div class="team">
+            <div class="team-name">
+                <h2 class="team-heading">Team B</h2>
+                <span id="teamBscore" class="teamscore">0</span>
+                <span id="teambtn">
+                    <button onclick="incrementScore('teamB')" class="btn">+</button>
+                    <button onclick="decrementScore('teamB')" class="btn">-</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
