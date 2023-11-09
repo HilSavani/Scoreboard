@@ -1,3 +1,3 @@
 # Scoreboard
 
-Live Application : https://scoreboard-iota.vercel.app/
+Demo Application : https://scoreboard-iota.vercel.app/
